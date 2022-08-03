@@ -1,0 +1,51 @@
+Frame 20: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Ethernet II, Src: REDACTED, Dst: REDACTED
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 6, Src: REDACTED, Dst: REDACTED
+User Datagram Protocol, Src Port: 547, Dst Port: 546
+DHCPv6
+    Message type: Advertise (2)
+    Transaction ID: 0x867ee2
+    Client Identifier
+        Option: Client Identifier (1)
+        Length: 10
+        DUID: REDACTED
+        DUID Type: link-layer address (3)
+        Hardware type: Ethernet (1)
+        Link-layer address: REDACTED
+    Server Identifier
+        Option: Server Identifier (2)
+        Length: 14
+        DUID: REDACTED
+        DUID Type: link-layer address plus time (1)
+        Hardware type: Ethernet (1)
+        DUID Time: REDACTED
+        Link-layer address: REDACTED
+    DNS recursive name server
+        Option: DNS recursive name server (23)
+        Length: 32
+         1 DNS server address: 2a01:c840:110:c1cb::1
+         2 DNS server address: 2a01:c840:130:c1ca::1
+    Identity Association for Prefix Delegation
+        Option: Identity Association for Prefix Delegation (25)
+        Length: 41
+        IAID: 00000001
+        T1: 43200
+        T2: 0
+        IA Prefix
+            Option: IA Prefix (26)
+            Length: 25
+            Preferred lifetime: 80000
+            Valid lifetime: 86400
+            Prefix length: 56
+            Prefix address: 2a01:c844:20c0:1a00::
+    Client Fully Qualified Domain Name
+        Option: Client Fully Qualified Domain Name (39)
+        Length: 19
+        Flags: 0x04  [CLIENT SHALL update AAAA RRs; SERVER SHALL NOT perform any DNS updates]
+        Client Domain Name: REDACTED
+    Dual-Stack Lite AFTR Name
+        Option: Dual-Stack Lite AFTR Name (64)
+        Length: 22
+        DS-Lite AFTR Name: aftr1.auro.orange.sk.
